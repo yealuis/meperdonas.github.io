@@ -11,6 +11,10 @@ body {
     text-align: center;
 }
 
+.container div {
+    display: none;
+}
+
 #gifContainerImg {
     width: 60%;
     height: 60%;
