@@ -32,7 +32,7 @@ document.getElementById('yesButton').addEventListener('click', function() {
     <p id='messageContainer2'>¡TE AMOOOOOOOOOOOOOOOOO!</p>`
     setInterval(() => {
         changeImage(happyImages)
-    }, 1000);
+    }, 2000);
 })
 
 let noButton = () => {
