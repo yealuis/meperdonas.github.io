@@ -11,13 +11,9 @@ body {
     text-align: center;
 }
 
-.container div {
-    display: none;
-}
-
 #gifContainerImg {
-    width: 60%;
-    height: 60%;
+    width: 50%;
+    height: 50%;
 }
 
 button {
@@ -26,7 +22,7 @@ button {
     margin: 10px;
     cursor: pointer;
 }
-#siBtn {
+#yesButton {
     padding: 10px 20px; 
     font-size: 16px;
     margin: 10px;
@@ -37,7 +33,7 @@ button {
     border-radius: 10px; /* Esquinas redondeadas */
 }
 
-#noBtn {
+#noButton {
     padding: 10px 20px;
     font-size: 16px;
     margin: 10px;
@@ -47,16 +43,16 @@ button {
     border: 2px solid #FFC0CB; /* Bordes rosa */
     border-radius: 10px; /* Esquinas redondeadas */
 }
-#noBtn span {
+#noButton span {
     font-size: 18px;
     color: #fcf4f4; /* Cambia el color del texto según tus preferencias */
     /* Otras propiedades de estilo aquí */
 }
 
-#siBtn:hover{
+#yesButton:hover{
     background-color: #053a03; /* Cambia a otro color en hover, puedes ajustar el valor según tus preferencias */
 }
-#noBtn:hover {
+#noButton:hover {
     background-color: #641e0d; /* Cambia a otro color en hover, puedes ajustar el valor según tus preferencias */
 }
 .bg-green {
@@ -87,4 +83,3 @@ button {
         transform: scale(1.3); /* Zoom más grande */
     }
 }
-
