@@ -11,7 +11,7 @@ countMsg = -1
 
 let changeImage = (images) => {
     (countImg !== images.length - 1) ? countImg++ : countImg = 0
-    gif.src = `/images/${images[countImg]}`
+    gif.src = `images/${images[countImg]}`
 }
 
 let noBtnPosition = () => {
