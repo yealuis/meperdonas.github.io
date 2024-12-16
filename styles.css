@@ -11,9 +11,18 @@ body {
     text-align: center;
 }
 
+#gifContainer {
+    width: 100%;
+    position: relative;
+    height: 400px;
+}
+
 #gifContainerImg {
-    width: 50%;
-    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-height: 100%;
 }
 
 button {
@@ -23,56 +32,58 @@ button {
     cursor: pointer;
 }
 #yesButton {
-    padding: 10px 20px; 
-    font-size: 16px;
+    padding: 10px 40px; 
+    font-size: 20px;
     margin: 10px;
     cursor: pointer;
-    background-color: #009705; /* Verde */
+    background-color: #009705;
     color: white;
-    border: 2px solid #FFC0CB; /* Bordes rosa */
-    border-radius: 10px; /* Esquinas redondeadas */
+    border: 2px solid #000000;
+    border-radius: 10px;
 }
 
 #noButton {
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 10px 40px;
+    font-size: 20px;
     margin: 10px;
     cursor: pointer;
-    background-color: #FF5733; /* Rojo */
+    background-color: #FF5733;
     color: white;
-    border: 2px solid #FFC0CB; /* Bordes rosa */
-    border-radius: 10px; /* Esquinas redondeadas */
+    border: 2px solid #000000;
+    border-radius: 10px;
 }
 #noButton span {
     font-size: 18px;
-    color: #fcf4f4; /* Cambia el color del texto según tus preferencias */
-    /* Otras propiedades de estilo aquí */
+    color: #fcf4f4;
 }
 
 #yesButton:hover{
-    background-color: #053a03; /* Cambia a otro color en hover, puedes ajustar el valor según tus preferencias */
+    background-color: #077703; 
 }
 #noButton:hover {
-    background-color: #641e0d; /* Cambia a otro color en hover, puedes ajustar el valor según tus preferencias */
+    background-color: #972205;
 }
 .bg-green {
-    background-color: #ffffff; /* Nuevo color de fondo verde */
+    background-color: #ffffff;
 }
 
 #messageContainer {
-    font-size: 30px;
-    color: #FF0000; /* Color rojo */
-    font-family: 'YourDesiredFont', sans-serif; /* Reemplaza 'YourDesiredFont' con la fuente que desees */
-    text-shadow: 2px 2px 4px #000; /* Borde simulado */
-    animation: pulse 0.5s infinite alternate; /* Animación de palpitación más rápida */
+    margin-top: 30px;
+    padding: 0 30px;
+    font-size: 25px;
+    color: #FF0000;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 4px #000;
+    animation: pulse 0.5s infinite alternate;
 }
 
 #messageContainer2 {
-    font-size: 30px;
-    color: #FF0000; /* Color rojo */
-    font-family: 'YourDesiredFont', sans-serif; /* Reemplaza 'YourDesiredFont' con la fuente que desees */
-    text-shadow: 2px 2px 4px #000; /* Borde simulado */
-    animation: pulse 0.5s infinite alternate; /* Animación de palpitación más rápida */
+    margin-top: 20px;
+    font-size: 25px;
+    color: #FF0000;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 4px #000;
+    animation: pulse 0.5s infinite alternate;
 }
 
 @keyframes pulse {
@@ -80,6 +91,6 @@ button {
         transform: scale(1);
     }
     to {
-        transform: scale(1.3); /* Zoom más grande */
+        transform: scale(1.1);
     }
 }

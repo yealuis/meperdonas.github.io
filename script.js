@@ -17,8 +17,8 @@ let changeImage = (images) => {
 let noBtnPosition = () => {
     let buttonStyle = document.getElementById("noButton").style
     // Mover de forma aleatoria el boton
-    posX = Math.floor(Math.random() * 100)
-    posY = Math.floor(Math.random() * 100)
+    posX = Math.floor(Math.random() * 90)
+    posY = Math.floor(Math.random() * 90)
     buttonStyle.position = 'absolute'
     buttonStyle.left = posX + "%"
     buttonStyle.top = posY + "%"
